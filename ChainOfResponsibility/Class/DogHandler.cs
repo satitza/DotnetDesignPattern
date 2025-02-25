@@ -4,7 +4,7 @@ namespace ChainOfResponsibility.Class
 {
     public class DogHandler : AbstractHandler
     {
-        public override object Handle(object request)
+        public override object? Handle(object request)
         {
             if ((request as string) == "MeatBall")
             {

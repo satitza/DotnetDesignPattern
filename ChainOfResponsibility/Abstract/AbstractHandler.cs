@@ -4,7 +4,7 @@ namespace ChainOfResponsibility.Abstract
 {
     public abstract class AbstractHandler : IHandler
     {
-        private IHandler _nextHandler;
+        private IHandler? _nextHandler;
 
         public IHandler SetNext(IHandler handler)
         {
@@ -12,7 +12,7 @@ namespace ChainOfResponsibility.Abstract
             return this._nextHandler;
         }
 
-        public virtual object Handle(object request)
+        public virtual object? Handle(object request)
         {
             if (this._nextHandler != null)
             {

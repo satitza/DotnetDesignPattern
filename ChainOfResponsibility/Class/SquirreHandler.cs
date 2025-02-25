@@ -4,7 +4,7 @@ namespace ChainOfResponsibility.Class
 {
     public class SquirreHandler : AbstractHandler
     {
-        public override object Handle(object request)
+        public override object? Handle(object request)
         {
             if ((request as string) == "Nut")
             {
