@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPattern", "ProxyPatter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{88F49BD1-CADF-42FD-9B7A-3CCC412DFBB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern", "CommandPattern\CommandPattern.csproj", "{F8527ADD-84F5-442F-84C2-20E6DDC72EA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorPattern", "IteratorPattern\IteratorPattern.csproj", "{E10EBE31-A655-46DD-A36D-B413F55E60B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{88F49BD1-CADF-42FD-9B7A-3CCC412DFBB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88F49BD1-CADF-42FD-9B7A-3CCC412DFBB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88F49BD1-CADF-42FD-9B7A-3CCC412DFBB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8527ADD-84F5-442F-84C2-20E6DDC72EA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8527ADD-84F5-442F-84C2-20E6DDC72EA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8527ADD-84F5-442F-84C2-20E6DDC72EA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8527ADD-84F5-442F-84C2-20E6DDC72EA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E10EBE31-A655-46DD-A36D-B413F55E60B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E10EBE31-A655-46DD-A36D-B413F55E60B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E10EBE31-A655-46DD-A36D-B413F55E60B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E10EBE31-A655-46DD-A36D-B413F55E60B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
